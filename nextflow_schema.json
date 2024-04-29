@@ -259,6 +259,15 @@
                     "hidden": true,
                     "help_text": "By default, when an unrecognised parameter is found, it returns a warinig."
                 },
+                "adapters": {
+                    "type": "string"
+                },
+                "save_trimmed_fail": {
+                    "type": "boolean"
+                },
+                "save_merged": {
+                    "type": "boolean"
+                },
                 "validationLenientMode": {
                     "type": "boolean",
                     "fa_icon": "far fa-check-circle",
